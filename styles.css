@@ -1,0 +1,201 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.headerbar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: white;
+    margin: 25px;
+}
+
+.left-link {
+    font-weight: 900;
+    font-size: 35px;
+    font-family: "glam";
+    flex-direction: row;
+}
+
+.img-mars {
+    width: 35px;
+}
+
+.img-saturn {
+    width: 45px;
+    height: 45px;
+}
+
+.img-earth {
+    width: 45px;
+}
+.right-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.containerone {
+    height: 500px;
+    padding: 25px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/land.jpg);
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.header {
+    display: flex;
+    color: white;
+    font-family: glam;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.fade-in-text { 
+    animation: fadeIn 3s;
+  }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.subheader { 
+ font-family: "glam";
+ font-size: 25px;
+ color: white;
+}
+
+.button {
+    color: white;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 30%;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255));
+    transition: 0.3s;
+}   
+
+.containertwo {
+    display: flex;
+    background-color: black;
+    gap: 100px;
+    justify-content: space-evenly;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 50px;
+}
+
+.c-img, .europa-img, .ganymede-img,.io-img {
+    height: 150px;
+    width: 150px;
+}
+
+.info {
+    color:white;
+    margin-left: 750px;
+}
+.locations {
+    color: white;
+    
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/earthtwo.jpg);
+    color: white;
+    font-family: "glam";
+    font-size: 30px;
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.containerthree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: "glam";
+    font-size: 40px;
+    height: 180px;
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.sign-upone {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.sign-uptwo {
+    margin-left: 75px;
+}
+
+.book {
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    left: 750px;
+    font-size: 40px;
+    width: 20%;
+    color: white;
+    height: 55px;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    transition: 0.3s;
+}
+
+.book:hover {
+    background-color: rgba(151, 151, 151, 0.412);
+}
+
+.footlayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: "glam";
+    src: url(resources/glam.otf);
+    }
+
+    @font-face {
+        font-family: "kley";
+         src: url(resources/kley.otf);
+        }
+    
+        @font-face {
+            font-family: "lemon";
+             src: url(resources/lemon.ttf);
+            }
